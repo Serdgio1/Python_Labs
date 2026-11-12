@@ -11,7 +11,7 @@ def draw_flag():
 
     for y in range(-radius * 2, radius * 2 + 1):
         for x in range(-radius * 4, radius * 4 + 1):
-            if (x**2 + y**2 <= radius**2):
+            if x**2 + y**2 <= radius**2:
                 print(RED + "  " + END, end="")
             else:
                 print(WHITE + "  " + END, end="")
